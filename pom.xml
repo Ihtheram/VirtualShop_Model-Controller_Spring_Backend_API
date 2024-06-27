@@ -109,6 +109,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>virtualshop</finalName>
 	</build>
 
 </project>
