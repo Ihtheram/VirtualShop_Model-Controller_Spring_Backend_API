@@ -1,7 +1,7 @@
-FROM openjdk:8
+FROM openjdk:17
 
 EXPOSE 8080
 
-ADD target/virtualshop.jar virtualshop.jar
+COPY target/virtualshop.jar virtualshop.jar
 
 ENTRYPOINT ["java", "jar", "/virtualshop.jar"]

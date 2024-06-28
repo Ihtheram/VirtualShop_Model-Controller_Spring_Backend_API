@@ -70,6 +70,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>virtualshop</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.asciidoctor</groupId>
@@ -109,7 +110,6 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>virtualshop</finalName>
 	</build>
 
 </project>
